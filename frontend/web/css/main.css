@@ -1,0 +1,30 @@
+.wrap{
+    background-color: #093266;
+}
+.register_input{
+    border: none;
+    border-bottom:solid 2px #1997D0;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 150%;
+    text-align: center;
+    border-radius: 0%;
+}
+.register_input::placeholder {
+    color: whitesmoke;
+}
+.submit_button{
+    color:whitesmoke;
+    font-size: 160%;
+    /*font-weight: bold;*/
+    border:none;
+    height:40px;
+    width: 100%;
+    border-radius: 25px;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(108deg, #2FA5D5, #55BEA5); /* Standard syntax (must be last) */
+}
+.submit_button:focus {
+    outline:0;
+}
+
